@@ -1,0 +1,103 @@
+body { margin:0px ;
+}
+
+#login-bar {
+    background-color: whitesmoke;
+    height:50px;
+    width:100%;
+
+}
+
+    #login-items {
+        float:right;
+        padding:20px 0px;
+        
+       
+    }
+    #logo {
+        margin:0 15px;
+    }
+    a:link {
+        text-decoration: none;
+        color:gray;
+      }
+     a:visited {
+        text-decoration: none;
+        color:gray;
+      }
+     
+    #logo h6 {
+        position :relative;
+        bottom:20px;   
+    }
+    nav {
+        float:right;
+        position: relative;
+        bottom: 80px;
+        padding:0 20px;
+        word-spacing: 15px;
+        clear:both;
+}
+
+
+    
+   img {
+       width:100%;
+       height: 500px;
+   }
+   .sub-heading{
+       text-align:center;
+   }
+   .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /*margin: 0 20px;*/
+  }
+   .grid-container .grid-item img {
+    width:420px;  
+    height:200px;
+   }
+   .grid-item {
+       text-align:justify;
+       padding:0 10px;
+   }
+   .url{
+       width:100%;
+       height: 80px;
+       background-color: whitesmoke;
+       text-align:center;
+       Padding:15px 0;
+      }
+
+       .grid-container-small {
+        display: grid;
+        grid-template-columns:  auto  auto auto;
+       }
+       .grid-container .grid-item img {
+        width:100px;  
+        height:100px;
+       }
+       .color{
+           background-color:#E6E5E7;
+           width:100%
+       }
+       .format{
+           margin :20px 0;
+       }
+       footer {
+           width:100%;
+           height:30px;
+           
+           background-color: #D8D7D8;
+           padding: 0 10px;
+           padding-top:10px;
+           
+       }
+
+       #fontAwsome{
+        
+        height:10px;
+        float: right;
+
+       }
+      
